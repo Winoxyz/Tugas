@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Seblak HN</title>
+</head>
+<body style="margin: 0;">
+    <header>
+        <nav style="background-color: #952323; padding: 10px;">
+            <h1 style="text-align: center; font-size: 40px; margin: 10px 0px 25px 0px; color: white;">Seblak Horor Nagih</h1>
+        </nav>
+    </header>
+    <main>
+    <div style="display: flex; background-color: #DAD4B5;">
+        <div>
+            <table border="1" cellpadding="30" style="background-color: #F2E8C6;">
+                <thead>
+                  <tr>
+                    <th colspan="2" style="font-size: 35px;">Daftar Menu</th>
+                    <th style="font-size: 25px;">Harga</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th style="padding: 0;"><img style="flex-shrink: 0;"
+                            src="foto/Ceker.jpg" alt="Foto Seblak Ceker" width="200px"></th>
+                        <th style="font-size: 20px;">Seblak Ceker</th>
+                        <td>Rp. 15.000</td>
+                    </tr>
+                    <tr>
+                        <th style="padding: 0;"><img style="flex-shrink: 0;"
+                            src="foto/Mie.jpg" alt="Foto Seblak Mie" width="200px"></th>
+                        <th style="font-size: 20px;">Seblak Mie</th>
+                        <td>Rp. 10.000</td>
+                    </tr>
+                    <tr>
+                        <th style="padding: 0;"><img style="flex-shrink: 0;"
+                            src="foto/Kerupuk.jpeg" alt="Foto Seblak Kerupuk" width="200px"></th>
+                        <th style="font-size: 20px;">Seblak Kerupuk</th>
+                        <td>Rp. 10.000</td>
+                    </tr>
+                </tbody>
+            </table>
+     </div>
+        <div>
+            <form action="admin.html" style="margin-left: 60px;">
+            <div style="background-color: #F2E8C6;">
+                <table>
+                    <tr>
+                        <h2>Untuk Pemesanan</h2>
+                    </tr>
+                    <tr>
+                        <td>Seblak Ceker</td>
+                        <td>
+                            <select name="SC">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                            <label><input type="radio" name="level_SC"> Level 1</label>
+                            <label><input type="radio" name="level_SC"> Level 2</label>
+                            <label><input type="radio" name="level_SC"> Level 3</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Seblak Mie</td>
+                        <td>
+                            <select name="SM">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                            <label><input type="radio" name="level_SM"> Level 1</label>
+                            <label><input type="radio" name="level_SM"> Level 2</label>
+                            <label><input type="radio" name="level_SM"> Level 3</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Seblak Kerupuk</td>
+                        <td>
+                            <select name="SK">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                            <label><input type="radio" name="level_SK"> Level 1</label>
+                            <label><input type="radio" name="level_SK"> Level 2</label>
+                            <label><input type="radio" name="level_SK"> Level 3</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+                <div style="background-color: #F2E8C6;">
+                    <h2>Data Pengiriman</h2>
+                    <table>
+                        <tr>
+                            <td><label for="Nama">Nama: </label></td>
+                            <td><input type="text" id="Nama" placeholder="Masukan Nama Anda:"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Telephone">No Telephone: </label></td>
+                            <td><input type="number" id="Telephone" placeholder="Masukan No Anda:"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Email">Email: </label></td>
+                            <td><input type="email" id="Email" placeholder="Masukan Email Anda:"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Alamat">Alamat: </label></td>
+                            <td><textarea name="text" cols="70" rows="10" id="Alamat" placeholder="Masukan Alamat Lengkap Anda:"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Catatan">Catatan Tambahan: </label></td>
+                            <td><textarea name="text" cols="70" rows="5" id="Catatan" placeholder="Masukan Catatan Tambahan:"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label>Pembayaran: </label></td>
+                            <td>
+                                <select>
+                                    <option>Cash</option>
+                                    <option>BCA</option>
+                                    <option>Dana</option>
+                                    <option>Shopepay</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                    <div>
+                    <button>Order Sekarang!</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div style="background-color: #952323; display:flex">
+        <div>
+            <h1 style="margin: 0px; color: white; margin: 0px 0px 0px 10px;">About Us</h1>
+            <p style="margin: 0px 700px 0px 0px; border: 5px solid black; background-color: #DAD4B5; border-radius: 10px;"> 
+                Seblak adalah hidangan Indonesia yang terkenal dengan rasa pedasnya
+                dan beragam bahan tambahan. Ini adalah makanan jalanan yang populer
+                di Indonesia, dengan kesan khas dari sensasi pedasnya dan fleksibilitas
+                dalam memilih berbagai bahan. Seblak mencerminkan keanekaragaman rasa 
+                dalam budaya kuliner Indonesia.</p>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/seblak_hn/" style="border: 2px solid black; background-color: white; border-radius: 5px;">Instagram</a>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
